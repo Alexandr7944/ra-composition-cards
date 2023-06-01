@@ -1,5 +1,6 @@
-import './App.css'
-import Card from './components/Card/Card'
+import './App.css';
+import Card from './components/Card/Card';
+import image from './assets/no_photo.png';
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="#" className="btn">Go somewhere</a>
       </Card>
-      <Card image='../public/no_photo.png'>
+      <Card image={image}>
         <h5 className="card-title">Card title</h5>
         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="#" className="btn">Go somewhere</a>
